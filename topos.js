@@ -23,11 +23,11 @@ $(document).ready(function () {
 
     // Un añadido de última hora. Uso de mousedown y mouseup además de la propiedad cursor de css para cambiar el cursor por un martillo animado
     $('#ventana').mousedown(function(){
-        $('#ventana').css({"cursor": " url('hamm1.png'), pointer"});
+        $('#ventana').css({"cursor": " url('hamm1.png') 22 21, auto"});
     });
 
     $('#ventana').mouseup(function(){
-        $('#ventana').css({"cursor": " url('hamm0.png'), pointer"});
+        $('#ventana').css({"cursor": " url('hamm0.png') 22 21, auto"});
     });
 
     ponerCasillas(100);
